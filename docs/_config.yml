@@ -29,8 +29,6 @@ github_username: Kiord
 
 # Build settings
 theme: minima
-minima:
-  skin: dark
 plugins:
   - jekyll-feed
   - jekyll-titles-from-headings # For removing double titles
