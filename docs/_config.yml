@@ -22,13 +22,13 @@ title: Glenn Kerbiriou
 email: glenn.kerbiriou@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   My personal website
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/docs" # the subpath of your site, e.g. /blog
 url: "https://kiord.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: Kiord
 
 # Build settings
-theme: minima
+#theme: minima
 plugins:
   - jekyll-feed
   - jekyll-titles-from-headings # For removing double titles
