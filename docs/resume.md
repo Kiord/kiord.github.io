@@ -14,7 +14,7 @@ permalink: /resume/
 
 `June 2019 - September 2019` __Internship__ at ONHYS, Sophia Antipolis. Implementation of crowd rendering and other rendering features in _ONHYS One_ crowd simulation software.
 
-`June 2018 - September 2018` __Internship__ at INRIA and LOUSIC, Rennes. Cybersecurity subject : Graphical User Authentification.
+`June 2018 - September 2018` __Internship__ at INRIA and LOUSTIC, Rennes. Cybersecurity subject : Graphical User Authentification.
 
 `June 2016` __Internship__ at Technicolor R&D, Rennes. Virtual Reality subject : Reflection handling in VR.
 
