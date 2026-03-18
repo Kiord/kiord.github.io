@@ -1,0 +1,14 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>
+  {{ if .IsHome }}
+    {{ .Site.Title }}
+  {{ else }}
+    {{ .Title }} · {{ .Site.Title }}
+  {{ end }}
+</title>
+<link rel="preconnect" href="https://fonts.bunny.net">
+<link href="https://fonts.bunny.net/css?family=comic-mono:400,700" rel="stylesheet" />
+<link rel="stylesheet" href='{{ "css/main.css" | relURL }}'>
+<script src="https://unpkg.com/swup@4"></script>
+<!-- <script>const swup = new Swup();</script> -->

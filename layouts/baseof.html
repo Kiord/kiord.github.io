@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    {{ partial "head.html" . }}
+  </head>
+  <body>
+    <div class="site">
+      <header class="site-header">
+        <div class="site-title">
+          <a href="{{ "/" | relURL }}" id="site-title-link" > {{ .Site.Title }}</a>
+          <span id="emoji"></span>
+        </div>
+        <script src='{{ "js/emoji.js" | relURL }}'></script>
+        {{ partial "nav.html" . }}
+      </header>
+
+      <main class="content", id="swup">
+        {{ block "main" . }}{{ end }}
+      </main>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,28 @@
+baseURL = "https://kiord.github.io/"
+languageCode = "en-us"
+title = "Glenn Kerbiriou"
+
+[caches]
+  [caches.images]
+    dir = ':cacheDir/images'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[menu]
+  [[menu.main]]
+    name = "Home"
+    pageRef = "/"
+    weight = 1
+
+  [[menu.main]]
+    name = "Projects"
+    pageRef = "/projects"
+    weight = 2
+
+  [[menu.main]]
+    name = "Publications"
+    pageRef = "/publications"
+    weight = 3

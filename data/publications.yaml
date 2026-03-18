@@ -1,0 +1,36 @@
+
+- title: "Data-driven Modeling of Subtle Eye Region Deformations"
+  venue: "Computers & Graphics"
+  year: 2025
+  icon: "/img/DMSERD_CG2025.jpg"
+  authors: "Glenn Kerbiriou, Quentin Avril, Maud Marchal"
+  doi: https://doi.org/10.1016/j.cag.2025.104425
+  # pdf: "/pdf/Cari_Frontiers2022.pdf"
+
+- title: "3D Reconstruction and Semantic Modeling of Eyelashes"
+  venue: "Eurographics"
+  year: 2024
+  icon: "/img/3DRSME_EG2024.jpg"
+  pdf: "/pdf/3DRSME_EG2024.pdf"
+  authors: "Glenn Kerbiriou, Quentin Avril, Maud Marchal"
+  doi: https://doi.org/10.1111/cgf.15040
+  project: https://quentin.avril.free.fr/papers/EG2024/EG2024.html 
+  dataset: https://www.interdigital.com/data_sets/eyelashes-dataset 
+ 
+
+- title: "Detailed Eye Region Capture and Animation"
+  venue: "Symposium on Computer Animation"
+  year: 2022
+  icon: "/img/DERCA_SCA2022.jpg"
+  pdf: "/pdf/DERCA_SCA2022.pdf"
+  authors: "Glenn Kerbiriou, Quentin Avril, Fabien Danieau, Maud Marchal"
+  doi: https://doi.org/10.1111/cgf.14642
+
+
+- title: "Study on Automatic 3D Facial Caricaturization: From Rules to Deep Learning"
+  venue: "Frontiers in Virtual Reality"
+  year: 2022
+  icon: "/img/Cari_Frontiers2022.jpg"
+  pdf: "/pdf/Cari_Frontiers2022.pdf"
+  authors: "Nicolas Olivier*, Glenn Kerbiriou*, Ferran Arguelaguet, Quentin Avril, Fabien Danieau, Philippe Guillotel, Ludovic Hoyet, Franck Multon"
+  doi: https://doi.org/10.3389/frvir.2021.785104

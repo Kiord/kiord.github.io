@@ -1,0 +1,41 @@
+{{ define "main" }}
+  <section>
+    <h1>{{ .Title }}</h1>
+    {{ .Content }}
+
+    <div class="pub-list">
+      {{ range site.Data.publications }}
+        <article class="pub-entry">
+          <div class="pub-icon-wrap">
+            {{ with .icon }}
+              <img src='{{ printf "%s" . | relURL }}' alt="" class="pub-icon">
+            {{ end }}
+          </div>
+     
+
+          <div class="pub-body">
+            <h2 class="pub-title">{{ .title }}</h2>
+            <p class="pub-meta">
+              <span class="pub-venue">{{ .venue }}</span>
+              <span class="pub-sep">·</span>
+              <span class="pub-year">{{ .year }}</span>
+            </p>
+            <p class="pub-meta">
+                {{ .authors }}
+            </p>
+
+
+            <p class="pub-links">
+              {{ with .pdf }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">PDF</a>{{ end }}
+              {{ with .project }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Project page</a>{{ end }}
+              {{ with .doi }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{ end }}
+              {{ with .arxiv }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">arXiv</a>{{ end }}
+              {{ with .code }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Code</a>{{ end }}
+              {{ with .dataset }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Dataset</a>{{ end }}
+            </p>
+          </div>
+        </article>
+      {{ end }}
+    </div>
+  </section>
+{{ end }}

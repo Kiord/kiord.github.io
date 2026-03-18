@@ -1,0 +1,11 @@
+/public/
+
+.DS_Store
+Thumbs.db
+
+.vscode/
+.idea/
+*.swp
+*.swo
+
+.hugo_build.lock
