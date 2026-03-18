@@ -12,9 +12,9 @@ A small path tracer I made in GLSL, hosted on ShaderToy: <a href="https://www.sh
 - Phong BSDF
 - First Person Camera
 
-Render
+Render:
 ![image](/img/veach.jpg)
-*Balance heuristic* weights visualization (<span style="color:red">BSDF sampling</span>, <span style="color:green">surface sampling</span>)
+*Balance heuristic* weights visualization (<span style="color:red">BSDF sampling</span>, <span style="color:green">surface sampling</span>):
 ![image](/img/veach_mis.jpg)
-Another scene
+Another scene:
 ![image](/img/cornell.jpg)
