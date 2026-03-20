@@ -11,7 +11,7 @@
   venue: "PhD Thesis"
   year: 2024
   icon: "/img/thesis.jpg"
-  pdf: "https://theses.hal.science/tel-05408406/"
+  doi: "https://theses.hal.science/tel-05408406/"
 
 
 - title: "3D Reconstruction and Semantic Modeling of Eyelashes"

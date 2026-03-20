@@ -138,7 +138,7 @@ h1 {
 
 h2 {
   font-size: 1.35rem;
-  color: var(--accent);
+  /* color: var(--accent); */
 }
 
 h3 {
@@ -197,7 +197,6 @@ ol {
 
 .post {
   background: var(--panel-bg);
-  padding: var(--space-1) 0;
 }
 
 .card-list,
@@ -453,4 +452,9 @@ hr {
 
 .form-status.is-error {
   color: var(--link-hover);
+}
+
+.content img,
+.post img {
+  max-width: 100%;
 }
