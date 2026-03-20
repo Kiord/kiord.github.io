@@ -7,6 +7,13 @@
   doi: https://doi.org/10.1016/j.cag.2025.104425
   # pdf: "/pdf/Cari_Frontiers2022.pdf"
 
+- title: "Data-driven Eye Region Reconstruction, Modeling and Animation"
+  venue: "PhD Thesis"
+  year: 2024
+  icon: "/img/thesis.jpg"
+  pdf: "https://theses.hal.science/tel-05408406/"
+
+
 - title: "3D Reconstruction and Semantic Modeling of Eyelashes"
   venue: "Eurographics"
   year: 2024
