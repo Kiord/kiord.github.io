@@ -2,9 +2,10 @@
 title: "SpaceBrowser"
 date: 2025-10-04
 summary: "A cross-platform file system visualizer with Go and Wails"
+icon: https://raw.githubusercontent.com/Kiord/SpaceBrowser/1e1e55f9ae88562b5f78e29190680ff6d48067b7/web/logo.svg
 ---
 
-SpaceBrowser is a cross-platform file system viewer that allows you to monitor disk usage at a glance:  <a href="https://github.com/Kiord/SpaceBrowser" target="_blank">Link</a>
+<img src="https://raw.githubusercontent.com/Kiord/SpaceBrowser/1e1e55f9ae88562b5f78e29190680ff6d48067b7/web/logo.svg" height="20">  SpaceBrowser is a cross-platform file system viewer that allows you to monitor disk usage at a glance:  <a href="https://github.com/Kiord/SpaceBrowser" target="_blank">Link</a>
 
 A Go backend parses the file system, computes a treemap and sends that to a webview (Wails) for display.
 

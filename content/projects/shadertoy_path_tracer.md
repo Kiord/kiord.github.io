@@ -2,6 +2,7 @@
 title: "GLSL Path Tracer"
 date: 2020-01-26
 summary: "A small path tracer written in GLSL and hosted on ShaderToy"
+icon: /img/veach.jpg
 ---
 
 A small path tracer I made in GLSL, hosted on ShaderToy: <a href="https://www.shadertoy.com/view/wlyGWc" target="_blank">Link</a>
