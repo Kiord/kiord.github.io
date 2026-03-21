@@ -32,9 +32,9 @@ This tool lets you select a set of vertices in a mesh and save this selection (o
 <br>
 
 ## mesh_align  <a href="https://github.com/Kiord/mesh_align" target="_blank">Link</a>
-This tool basically implements *Iterative Closest Point* (ICP) algorithm which aims at aligning two geometries rigidly. ICP is an iterative algorothm that finds point matches int the source and target geometry and computes the optimal alignment for these matches. New matches are computed and the process continues until convergence or stoppage.
+This tool basically implements *Iterative Closest Point* (ICP) algorithm which aims at aligning two geometries rigidly. ICP is an iterative algorithm that finds point matches between the source and target geometry and computes the optimal alignment for these matches. New matches are computed and the process continues until convergence or stoppage.
 
-This version is designed to be quite robust since it can test many initial solutions (ICP is *very* sensitive to that) in coarse phase. Moreover the outliers (in which ICP is also sensitive) are considered as a ratio, as I found to be the easiest way to handle them. 
+This version is designed to be quite robust since it can test many initial solutions (ICP is *very* sensitive to that) in a coarse phase. The outliers (in which ICP is also sensitive) are considered as a ratio of the total number of points, which I found to be the easiest way to handle them. 
 
 <div style="display:flex; justify-content:center;">
 <video controls preload="metadata" style="width:80%; height:auto;" >

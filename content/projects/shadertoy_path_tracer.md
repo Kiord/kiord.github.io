@@ -8,7 +8,7 @@ icon: /img/veach.jpg
 A small path tracer I made in GLSL, hosted on ShaderToy: <a href="https://www.shadertoy.com/view/wlyGWc" target="_blank">Link</a>
 
 - Multiple Importance Sampling for direct lighting
-- Sphere and Triangle Primitives (Emissive as well)
+- Sphere and Triangle Primitives (Emissive Sphere only)
 - Veach's scene
 - Phong BSDF
 - First Person Camera (camera parameters are stored in bottom left pixels !)

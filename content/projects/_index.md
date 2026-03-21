@@ -1,4 +1,4 @@
 ---
 title: "Projects"
 ---
-Here I shared some of my personal coding projects
+Here I share some of my personal coding projects.
