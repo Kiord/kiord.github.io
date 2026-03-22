@@ -6,9 +6,9 @@ icon: /img/steve.jpg
 ---
 
 
-Steve is a path tracer written in [Taichi](https://www.taichi-lang.org/) as I wanted to learn this Python-embedded language.  <a href="https://github.com/Kiord/Steve" target="_blank">Github</a>
+Steve (<a href="https://github.com/Kiord/Steve" target="_blank">Github</a>) is a path tracer written in <a href="https://taichi-lang.org" target="_blank">Taichi</a> as I wanted to learn this Python-embedded language.  .
 
-This project is stalled but I might come back to it to make a minimal working version. Name is shamelessly taken from [@vigzvigz's](https://www.youtube.com/@vigzvigz) little fish character.
+This project is stalled but I might come back to it to make a minimal working version. Name is shamelessly taken from <a href="https://www.youtube.com/@vigzvigz" target="_blank">@vigzvigz</a>'s little fish character.
 
 ## Progress
 
