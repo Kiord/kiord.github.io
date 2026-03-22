@@ -22,7 +22,7 @@
               </h3>
 
               {{ with .date }}
-                <div class="pub-meta">
+                <div class="meta">
                   {{ if reflect.IsMap . }}
                     {{ $start := index . "start" }}
                     {{ $end := index . "end" }}
