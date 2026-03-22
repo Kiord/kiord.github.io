@@ -1,0 +1,55 @@
+{{ define "main" }}
+  <section>
+    {{/*  <h1>{{ .Title }}</h1>
+    {{ .Content }}  */}}
+
+    {{ range site.Data.resume }}
+      <h2>{{ .name }}</h2>
+
+      <div class="pub-list">
+        {{ range .entries }}
+          <article class="pub-entry">
+            <div class="pub-icon-wrap">
+              {{ with .icon }}
+                <img src="{{ . | relURL }}" alt="" class="pub-icon">
+              {{ end }}
+            </div>
+
+            <div class="pub-body">
+              <h3 class="pub-title">
+                {{ .title }}
+                {{ with .organization }} at {{ . }}{{ end }}
+              </h3>
+
+              {{ with .date }}
+                <div class="pub-meta">
+                  {{ if reflect.IsMap . }}
+                    {{ $start := index . "start" }}
+                    {{ $end := index . "end" }}
+                    {{ if $start }}
+                      {{ $start }} – {{ if $end }}{{ $end }}{{ else }}present{{ end }}
+                    {{ end }}
+                  {{ else }}
+                    {{ . }}
+                  {{ end }}
+                </div>
+              {{ end }}
+
+              {{ with .content }}
+                {{ if reflect.IsSlice . }}
+                  <ul>
+                    {{ range . }}
+                      <li>{{ . | markdownify}}</li>
+                    {{ end }}
+                  </ul>
+                {{ else }}
+                  <p>{{ . | markdownify}}</p>
+                {{ end }}
+              {{ end }}
+            </div>
+          </article>
+        {{ end }}
+      </div>
+    {{ end }}
+  </section>
+{{ end }}

@@ -9,3 +9,7 @@ Thumbs.db
 *.swo
 
 .hugo_build.lock
+
+*.txt
+*.py
+

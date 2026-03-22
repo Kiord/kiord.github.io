@@ -1,0 +1,77 @@
+
+- name: Experiences
+  entries:
+    - title: "R&D Engineer"
+      date: 
+        start: March 2025
+      organization: Take-Two Dynamixyz
+      icon: "/img/dynamixyz.png"
+      content: I am currently working on developing next-gen facial rigs for video-games.
+
+    - title: "Post-Doctoral Researcher"
+      date: 
+        start: April 2024
+        end: December 2024
+      organization: INSA Rennes
+      icon: "/img/insa.jpg"
+      content: I completed and published final PhD milestones.
+
+    - title: "Virtual Reality Engineer"
+      date: 
+        start: December 2020
+        end: March 2021
+      organization: IRISA
+      icon: "/img/irisa.png"
+      content: I developed immersive 3D scenes to showcase real-time physics simulations using <a href="https://www.sofa-framework.org/" target="_blank">SOFA</a> in <a href="https://www.irisa.fr/immersia/" target="_blank">Immersia</a>. 
+
+    - title: "Intern"
+      date: 
+        start: March 2020
+        end: September 2020
+      organization: InterDigital
+      icon: "/img/interdigital.svg"
+      content: I worked on the automatic creation of 3D facial caricatures. It was a fun and exploratory subject that helped me break into computer graphics research.
+
+    - title: "Intern"
+      date: 
+        start: June 2019
+        end: September 2019
+      organization: ONHYS
+      icon: "/img/onhys.jpg"
+      content: I developped visual features for OHNYS One crowd simulation software. This includes graph visualization and crowd rendering.
+
+    - title: "Intern"
+      date: 
+        start: June 2018
+        end: September 2018
+      organization: Inria & LOUSTIC
+      icon: "/img/rennes2.png"
+      content: I worked on making software to collect data for human-computer interaction understanding.
+
+- name: Education
+  entries:
+    - title: "PhD Student"
+      date:
+        start: April 2021
+        end: June 2024
+      organization: InterDigital & INSA Rennes
+      icon: "/img/thesis.jpg"
+      content: '<a href="https://theses.hal.science/tel-05408406/" target="_blank">Data-driven Eye Region Reconstruction, Modeling and Animation</a> <br> I studied the geometry of the eye region and proposed new methods for capturing, reconstructing and rigging it in digital humans.'
+
+    - title: "Engineer Student"
+      date:
+        start: 2015
+        end: 2020
+      organization: ESIR
+      icon: "/img/esir.png"
+      content: Computer Science, Computer Vision & Graphics option.
+
+- name: Teaching
+  entries: 
+  - title: "Computer Graphics praticals"
+    date: 
+      start: 2021
+      end: 2024
+    organization: INSA Rennes
+    icon: "/img/insa.jpg"
+    content: Modeling, rendering and animation in C++/OpenGL.

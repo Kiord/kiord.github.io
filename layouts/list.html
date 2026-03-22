@@ -16,7 +16,7 @@
 
             <div class="pub-body">
               <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-              {{ with .Date }}<div class="meta">{{ .Format "02-01-2006" }}</div>{{ end }}
+              {{ with .Date }}<div class="meta">Last Updated: {{ .Format "02-01-2006" }}</div>{{ end }}
               {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
 
             </div>
