@@ -440,6 +440,19 @@ hr {
   height: auto;
 }
 
+.media-center {
+  display: flex;
+  justify-content: center;
+}
+
+.project-video {
+  display: block;
+  width: 80%;
+  height: auto;
+  max-width: 100%;
+}
+
+
 /* Responsive */
 
 @media (max-width: 700px) {
@@ -472,3 +485,4 @@ hr {
     max-width: 12rem;
   }
 }
+

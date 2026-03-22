@@ -19,3 +19,4 @@ Render:
 ![image](/img/veach_mis.jpg)
 Another scene:
 ![image](/img/cornell.jpg)
+
