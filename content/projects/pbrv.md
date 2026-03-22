@@ -5,9 +5,9 @@ summary: "A small PBR 3D Viewer in CLI powered by ModernGL"
 icon: https://raw.githubusercontent.com/Kiord/pbrv/main/src/pbrv/resources/misc/screenshot3.jpg
 ---
 
-**P**hysically **B**ased **R**endering **V**iewer (pbrv) is a small PBR 3D Viewer in CLI powered by ModernGL: <a href="https://github.com/Kiord/pbrv" target="_blank">Link</a>
+**P**hysically **B**ased **R**endering **V**iewer (pbrv) is a small PBR 3D Viewer in CLI powered by ModernGL. <a href="https://github.com/Kiord/pbrv" target="_blank">Github</a>
 
-I wanted to go through [learnopengl.com](/https://learnopengl.com/) and a little beyond with by coding this Python PBR viewer.
+I wanted to go through <a href="https://learnopengl.com" target="_blank">learnopengl.com</a> and a little beyond with by coding this Python PBR viewer.
 
 
 ### Features/Specs

@@ -5,7 +5,7 @@ summary: "A small path tracer written in GLSL and hosted on ShaderToy"
 icon: /img/veach.jpg
 ---
 
-A small path tracer I made in GLSL, hosted on ShaderToy: <a href="https://www.shadertoy.com/view/wlyGWc" target="_blank">Link</a>
+A small path tracer I made in GLSL, hosted on ShaderToy. <a href="https://www.shadertoy.com/view/wlyGWc" target="_blank">Link</a>
 
 - Multiple Importance Sampling for direct lighting
 - Sphere and Triangle Primitives (Emissive Sphere only)
