@@ -3,26 +3,26 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 
-    <div class="card-list">
+    <div class="card-list stack-list stack-list--compact">
       {{ range .Pages.ByDate.Reverse }}
 
-         <article class="pub-entry">
-            <div class="pub-icon-wrap">
+         <article class="pub-entry panel panel-pad">
+            <div class="pub-icon-wrap media-frame">
               {{ with .Params.icon }}
-                <img src='{{ printf "%s" . | relURL }}' alt="" class="pub-icon">
+                <img src='{{ printf "%s" . | relURL }}' alt="" class="pub-icon media-fit">
               {{ end }}
             </div>
-      
+
 
             <div class="pub-body">
               <h2><a href="{{ .RelPermalink }}">{{ .Title }}</a></h2>
-              {{ with .Date }}<div class="meta">Last Updated: {{ .Format "02-01-2006" }}</div>{{ end }}
+              {{ with .Date }}<div class="meta">{{ .Format "January 2006" }}</div>{{ end }}
               {{ with .Params.summary }}<p>{{ . }}</p>{{ end }}
 
             </div>
           </article>
 
-  
+
       {{ end }}
     </div>
   </section>

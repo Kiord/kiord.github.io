@@ -6,12 +6,12 @@
     {{ range site.Data.resume }}
       <h1>{{ .name }}</h1>
 
-      <div class="pub-list">
+      <div class="pub-list stack-list stack-list--spacious">
         {{ range .entries }}
-          <article class="pub-entry">
-            <div class="pub-icon-wrap">
+          <article class="pub-entry panel panel-pad">
+            <div class="pub-icon-wrap media-frame">
               {{ with .icon }}
-                <img src="{{ . | relURL }}" alt="" class="pub-icon">
+                <img src="{{ . | relURL }}" alt="" class="pub-icon media-fit">
               {{ end }}
             </div>
 

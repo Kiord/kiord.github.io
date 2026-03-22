@@ -3,15 +3,15 @@
     <h1>{{ .Title }}</h1>
     {{ .Content }}
 
-    <div class="pub-list">
+    <div class="pub-list stack-list stack-list--spacious">
       {{ range site.Data.publications }}
-        <article class="pub-entry">
-          <div class="pub-icon-wrap">
+        <article class="pub-entry panel panel-pad">
+          <div class="pub-icon-wrap media-frame">
             {{ with .icon }}
-              <img src='{{ printf "%s" . | relURL }}' alt="" class="pub-icon">
+              <img src='{{ printf "%s" . | relURL }}' alt="" class="pub-icon media-fit">
             {{ end }}
           </div>
-     
+
 
           <div class="pub-body">
             <h2 class="pub-title">{{ .title }}</h2>
@@ -25,7 +25,7 @@
             </p>
 
 
-            <p class="pub-links">
+            <p class="pub-links link-row">
               {{ with .pdf }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">PDF</a>{{ end }}
               {{ with .project }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">Project page</a>{{ end }}
               {{ with .doi }}<a href="{{ . }}" target="_blank" rel="noopener noreferrer">DOI</a>{{ end }}

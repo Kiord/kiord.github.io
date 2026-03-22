@@ -2,7 +2,7 @@
   <div class="contact-wrap">
     <h1>{{ .Title }}</h1>
 
-    <form class="contact-form" id="contact-form" action="https://formspree.io/f/maqpkayr" method="POST">
+    <form class="contact-form panel panel-pad" id="contact-form" action="https://formspree.io/f/maqpkayr" method="POST">
       <input type="hidden" name="_subject" value="New message from kiord.github.io">
 
       <label for="email">Email</label>
@@ -14,7 +14,7 @@
       <input type="text" name="_gotcha" tabindex="-1" autocomplete="off" class="hp-field">
 
       <button type="submit">Send</button>
-      <p class="form-status" id="form-status" aria-live="polite"></p>
+      <p class="form-status status-message" id="form-status" aria-live="polite"></p>
     </form>
     <script>
       document.addEventListener("DOMContentLoaded", function () {
@@ -27,7 +27,7 @@
           e.preventDefault();
 
           status.textContent = "Sending...";
-          status.className = "form-status";
+          status.className = "form-status status-message";
 
           const data = new FormData(form);
 
@@ -43,14 +43,14 @@
             if (res.ok) {
               form.reset();
               status.textContent = "Message sent ! I'll get back to you soon";
-              status.className = "form-status is-success";
+              status.className = "form-status status-message is-success";
             } else {
               status.textContent = "Could not send message.";
-              status.className = "form-status is-error";
+              status.className = "form-status status-message is-error";
             }
           } catch (err) {
             status.textContent = "Network error. Please try again.";
-            status.className = "form-status is-error";
+            status.className = "form-status status-message is-error";
           }
         });
       });
