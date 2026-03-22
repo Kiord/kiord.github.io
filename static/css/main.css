@@ -3,7 +3,7 @@
   --bg-soft: #efe7d2c9;
   --text: #1f1a17;
   --muted: #534d5f;
-  --line: #b9aa8f;
+  --line: #b9aa8fbe;
   --link: #0039a6;
   --link-hover: #b5121b;
   --accent: #1d6b3c;
@@ -44,9 +44,9 @@
 
   /* Type scale */
   --text-s: 1.0rem;
-  --text-m: 1.22rem;
-  --text-l: 1.32rem;
-  --text-xl: 1.52rem;
+  --text-m: 1.1rem;
+  --text-l: 1.2rem;
+  --text-xl: 1.35rem;
 
   --leading-body: 1.5;
   --leading-tight: 1.2;
