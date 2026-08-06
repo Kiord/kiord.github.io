@@ -1,0 +1,17 @@
+{{- $url := .Get 0 -}}
+{{- $baseURL := replaceRE "[^/]+$" "" $url -}}
+
+{{- with try (resources.GetRemote $url) -}}
+  {{- with .Err -}}
+    {{- errorf "Unable to fetch remote Markdown from %q: %s" $url . -}}
+  {{- else with .Value -}}
+    {{- $rendered := .Content | $.Page.RenderString (dict "display" "block") -}}
+    {{- $relativeImagePattern := `(?i)src="([^/:"][^":]*)"` -}}
+    {{- $imageReplacement := printf `src="%s${1}"` $baseURL -}}
+    {{- $rendered | replaceRE $relativeImagePattern $imageReplacement | safeHTML -}}
+  {{- else -}}
+    {{- errorf "Remote Markdown was empty at %q" $url -}}
+  {{- end -}}
+{{- else -}}
+  {{- errorf "Unable to fetch remote Markdown from %q" $url -}}
+{{- end -}}
