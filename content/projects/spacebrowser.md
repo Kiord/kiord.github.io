@@ -1,8 +1,10 @@
 ---
 title: "SpaceBrowser"
 date: 2025-10-04
-summary: "A cross-platform file system visualizer with Go and Wails"
-icon: https://raw.githubusercontent.com/Kiord/SpaceBrowser/1e1e55f9ae88562b5f78e29190680ff6d48067b7/web/logo.svg
+summary: "A cross-platform disk space explorer with Go and Wails"
+icon: https://github.com/Kiord/SpaceBrowser/blob/main/assets/appicon.png?raw=true
 ---
+
+A cross-platform disk space explorer with Go and Wails <a href="https://github.com/Kiord/pbrv" target="_blank">Github</a>
 
 {{< remote-markdown "https://raw.githubusercontent.com/Kiord/SpaceBrowser/main/README.md" >}}
