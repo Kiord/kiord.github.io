@@ -1,4 +1,4 @@
-const emojis = ["🧪", "👾", "🏸", "🐈", "🏋️‍♀️", "😴", "🌊", "💻", "👁️", "🎧", "🍻", "🌻"];
+const emojis = ["🧪", "👾", "🏸", "🐈", "🐕", "🏋️‍♀️", "😴", "🌊", "💻", "👁️", "🎧", "🍻", "🌻"];
 
 const title = document.getElementById("site-title-link");
 const emojiSpan = document.getElementById("emoji");
